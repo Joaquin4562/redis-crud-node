@@ -1,0 +1,13 @@
+SAVE // Crea una copia de seguiridad en la carpeta local
+SAVE n m // Crea una copia de seguridad cada n segundos si
+ya se producieron m cambios en dicho intervalo de tiempo.
+
+BGSAVE // Crea una copia de seguridad en segundo plano
+
+config set appendonly yes // guarda en un archivo cada que se realiza una accion
+
+config set requirepass "password" // configura una contrase;accion
+
+auth "password" // autenticacion
+
+config get * // traer todos los parametros de configuracion

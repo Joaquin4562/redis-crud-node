@@ -1,0 +1,3 @@
+curl -XPOST -d '{json}' ruta
+
+curl -XGEt ruta
