@@ -3,10 +3,13 @@
 Se debe de crear un registro de encuestas para alumnos donde primero se tiene que registrar un alumno con la siguiente información:
  - id (generar automaticamente) este sera el hash del hmap.
  - Nombre del alumno
+ - Matricula
  - Edad
  - Fecha de nacimiento
  - Sexo
  - Especialidad
+ - Institución
+ - Lugar de nacimiento
 
 Crear una API en node usando como base de datos redis para hacer el registro de el alumnado.
 
@@ -21,8 +24,14 @@ Una vez que se hayan registrado los alumnos tendran que contestar dos encuestas:
    - NSS (texto)
    - Número telefonico
    - Preferencias sexuales
+   - Lengua nativa
+   - decendencia (decendencias indigenas o ninguna)
+
  - Encuesta socioeconomica
    - Tipo de hogar
+   - Material del hogar
+   - Cuantos focos tienes en tu hogar
+   - Cuantas personas habitan en tu hogar
    - Ingreso mensual
    - Gasto mensual
    - Trabajas (si o no)
@@ -36,4 +45,4 @@ Crear una API en node usando como base de datoa redis para hacer el registro de 
 
 Crear una API para traer todos los alumnos registrados y ver cuantas encuestas tienen.
 
-## NOTA: Todo se creara en el mismo proyecto de Node (Interfaz y API), se puede usar React ahí mismo o bootstrap, el punto es que sea en el mismo proyecto de node. Todas las API deben de tener su interfaz para consumirse.
+## NOTA: Todas las API deben de tener su interfaz para consumirse, se puede crear la propia interfaz en el mismo proyecto o en un poryecto externo con alguna otra tecnología.
