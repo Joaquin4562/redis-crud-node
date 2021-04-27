@@ -26,6 +26,10 @@ Una vez que se hayan registrado los alumnos tendran que contestar dos encuestas:
    - Preferencias sexuales
    - Lengua nativa
    - decendencia (decendencias indigenas o ninguna)
+   - Materias
+     - Nombre
+     - Dias
+     - Claves
 
  - Encuesta socioeconomica
    - Tipo de hogar
